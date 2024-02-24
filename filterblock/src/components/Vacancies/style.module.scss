@@ -1,0 +1,45 @@
+.vacancies {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper {
+  width: 800px;
+  border: 1px solid #eaebed;
+  border-radius: 12px;
+  padding: 24px;
+
+  h1 {
+    font: 600 20px Inter;
+    color: #5e96fc;
+  }
+
+  .text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .work {
+      font: 400 16px Inter;
+      color: rgb(92, 92, 92);
+    }
+  }
+  p {
+    font: 600 16px Inter;
+    color: black;
+    margin: 10px 0;
+  }
+  .flexLocation {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+}
